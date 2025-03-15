@@ -3,6 +3,10 @@ import WelcomingPage from './WelcomingPage/welcomeimg';
 import Button from './ButtonSection/button'
 import WelcomingSection from './WelcomingPage/welcomesection'
 import HeroSection from './HeroSection/hero'
+import AboutMeSection from './HeroSection/aboutme'
+import SkillBen from './HeroSection/tools'
+import SkillSection from './HeroSection/skill'
+import ContactMe from './contactMe/contact'
 
 export default function Page(){
   return(
@@ -11,6 +15,10 @@ export default function Page(){
       <Button />
       <WelcomingSection />
       <HeroSection />
+      <AboutMeSection />
+      <SkillSection />
+      <SkillBen />
+      <ContactMe />
     </div>
   )
 }

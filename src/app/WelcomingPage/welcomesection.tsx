@@ -5,11 +5,12 @@ export default function WelcomeSection() {
     return (
         <div className='p-18
                         absolute
-                        top-70
+                        top-90
                         z-30
-                        font-roboto'>
+                        font-family'>
             <h1 className='text-9xl
-                        text-white'>
+                        text-white
+                        font-medium'>
                 hai!
             </h1>
             <p className='text-2xl
@@ -19,7 +20,7 @@ export default function WelcomeSection() {
             <p className='text-xl
                         text-white
                         mt-2'>
-                you're made to be awesome
+                "work with heart, serve with excellence"
             </p>
         </div>
     );
