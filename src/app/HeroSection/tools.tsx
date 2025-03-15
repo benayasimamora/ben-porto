@@ -1,8 +1,7 @@
 "use client"
-
 import { useState } from "react"
-import { IoIosArrowBack } from "react-icons/io";
-import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowBack } from 'react-icons/io';
+import { IoIosArrowForward } from 'react-icons/io';
 
 interface Item {
     name: string;
