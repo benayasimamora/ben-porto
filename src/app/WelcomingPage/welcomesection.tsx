@@ -20,7 +20,7 @@ export default function WelcomeSection() {
             <p className='text-xl
                         text-white
                         mt-2'>
-                "work with heart, serve with excellence"
+                work with heart, serve with excellence
             </p>
         </div>
     );
