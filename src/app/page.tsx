@@ -7,6 +7,8 @@ import AboutMeSection from './HeroSection/aboutme'
 import SkillBen from './HeroSection/tools'
 import SkillSection from './HeroSection/skill'
 import ContactMe from './contactMe/contact'
+import PortoBen from './PortofolioSection/mainportofolio'
+
 
 export default function Page(){
   return(
@@ -18,6 +20,7 @@ export default function Page(){
       <AboutMeSection />
       <SkillSection />
       <SkillBen />
+      <PortoBen />
       <ContactMe />
     </div>
   )

@@ -7,7 +7,7 @@ export default function WelcomeSection() {
                         absolute
                         top-90
                         z-30
-                        font-family'>
+                        poppins-regular'>
             <h1 className='text-9xl
                         text-white
                         font-medium'>

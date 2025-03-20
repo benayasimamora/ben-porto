@@ -1,8 +1,7 @@
 
 export default function AboutMeSection(){
     return(
-        <div className="p-30 pt-10 pb-24
-                        bg-black">
+        <div id="aboutMe" className="p-30 pt-10 pb-24 bg-black poppins-regular">
             <div>
                 <h1 className="text-white
                                 text-4xl

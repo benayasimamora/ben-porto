@@ -13,7 +13,7 @@ export default function SkillBen(){
     
     const items:Item[] = [
         {   name: "html",
-            image: "htmll.png"
+            image: "/htmll.png"
         },
         {   name: "css",
             image: "/css2.png"
@@ -50,7 +50,7 @@ export default function SkillBen(){
         },
     ];
     const [startIndex, setStartIndex] = useState<number>(0);
-    const VisibleCount = 4;
+    const VisibleCount = 5;
     const visibleItems = items.slice(startIndex, startIndex + VisibleCount);
 
     const nextSlide = () => {
@@ -63,18 +63,18 @@ export default function SkillBen(){
     
     
     return (
-        <div className="bg-black">
+        <div className="bg-black poppins-regular">
             <div className="-mt-30 relative z-50 bg-transparent">
             <div className="bg-transparent flex flex-row items-center gap-10 pr-10 pl-23">
                 <div className="flex flex-col gap pl-26">
                     <div>
                         {/* tombol geser kiri */}
-                        <button onClick={prevSlide} className="mb-4 pl-4 pr-4 p-3 text-white rounded-full border border-gray-300">
+                        <button onClick={prevSlide} className="opacity-85 cursor-pointer hover:opacity-100 mb-4 pl-4 pr-4 p-3 text-white rounded-full border border-gray-300">
                             <IoIosArrowBack size={20}/>
                         </button>
                     </div>
                     <div>
-                        <button onClick={nextSlide} className="mb-4 pl-4 pr-4 p-3 text-white rounded-full border border-gray-300">
+                        <button onClick={nextSlide} className="opacity-85 cursor-pointer hover:opacity-100 mb-4 pl-4 pr-4 p-3 text-white rounded-full border border-gray-300">
                             <IoIosArrowForward size={20}/>
                         </button>
                     </div>
@@ -87,9 +87,12 @@ export default function SkillBen(){
                                                     items-center
                                                     p-10
                                                     bg-transparent
-                                                    border-1
-                                                    border-white
-                                                    rounded-2xl">
+                                                    border-2
+                                                    border-[#808080]
+                                                    hover:border-white
+                                                    rounded-2xl
+                                                    hover:scale-108
+                                                    duration-300">
                             <img src={item.image} alt={item.name} className="w-14 h-auto mb-2" />
                             <span className="text-sm text-white">{item.name}</span>
                         </div>
